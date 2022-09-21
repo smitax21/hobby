@@ -11,15 +11,19 @@ body{
 }
 
 #logo{
+/* border-radius: 50%; */
 
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 #header{
     background-color: aquamarine;
     height: 10vh;
-}
-
-#title{
     text-align: center;
 }
 
@@ -31,10 +35,12 @@ body{
 }
 
 #sidebar{
-    background-color: blue;
+    margin-top: 5px;
     height: 80vh;
     width: 20vw;
     float: left;
+    align-items: center;
+    text-align: center;
 }
 
 #footer{
